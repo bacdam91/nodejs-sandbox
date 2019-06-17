@@ -24,3 +24,10 @@ module.exports.rename_demo = function() {
 		}
 	);
 };
+
+module.exports.open_demo = function() {
+	fs.open("./fs_sandbox/resources/test_01.txt", "r", (err, fd) => {
+		if (err) throw err;
+		console.log(fd);
+	});
+};
