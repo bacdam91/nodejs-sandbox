@@ -6,7 +6,13 @@
 //const createReadStreamDemo = require("./fs_sandbox/fs.createReadStream.demo/demo");
 //createReadStreamDemo.runCreateReadStreamDemo01();
 
+//fs.appendFile demo
+// require("./fs_sandbox/fs.appendFile.demo/demo")(
+// 	"./fs_sandbox/fs.appendFile.demo/resources/test.txt",
+// 	"Some more data\n"
+// );
+
 //APP DEMO
 //File Monitor Demo
-const fileMonitor = require("./app_demos/file_monitor/fileMonitor");
-fileMonitor.startResourcesWatcher("./app_demos/file_monitor/resources");
+//const fileMonitor = require("./app_demos/file_monitor/fileMonitor");
+//fileMonitor.startResourcesWatcher("./app_demos/file_monitor/resources");
