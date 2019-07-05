@@ -12,6 +12,11 @@
 // 	"Some more data\n"
 // );
 
+//fsPromises demo
+const fsPromisesDemo = require("./fs_sandbox/fsPromises.demo/demo");
+// fsPromisesDemo.demo_01();
+fsPromisesDemo.demo_02();
+
 //APP DEMO
 //File Monitor Demo
 //const fileMonitor = require("./app_demos/file_monitor/fileMonitor");
@@ -19,4 +24,4 @@
 
 //NPM PACKAGES DEMO
 //require("./npm_sandbox/winston_sandbox/winston.demo").runDemo();
-require("./npm_sandbox/express_sandbox/express.demo").runDemo();
+//require("./npm_sandbox/express_sandbox/express.demo").runDemo();
